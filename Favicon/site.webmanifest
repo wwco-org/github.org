@@ -13,7 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ff0000",
-    "background_color": "#ff0000",
+    "theme_color": "#fbd341",
+    "background_color": "#fbd341",
+    "start_url": "https://wwco-org.github.io/w/ru/",
     "display": "standalone"
 }
