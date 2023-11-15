@@ -1,4 +1,4 @@
-@media (max-width: 900px) { .fnt { font-size:2px; } } @ media (min-width: 901px) { .fnt { font-size:104px; } }
+@media (max-width: 900px) { .fnt { font-size:2px; margin-top:; } } @ media (min-width: 901px) { .fnt { font-size:104px; } }
 .block { background-color: transparent; max-width: 999px;} .bttn { display: block; background-color:#f8f9fb; color:#53585c; padding: 10px;}
 .list { display: inline-block; position: relative; }  .list-options { display: none; position: absolute; overflow: auto; background-color:#fff; border-radius:0px; box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4); margin-left:-50px; z-index: 999;} .list:hover .list-options { display: block; } .list-options a { display: block; color: #000000; text-decoration: none; padding:0px 20px; } .list-options a:hover { color: #0a0a23; background-color: #ddd; border-radius:5px; }
 .author-section.jsx-3339760008{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:Barlow, sans-serif;size:16px;height:130px;}.publication-date-container.jsx-3339760008{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;text-align:left;}.author-information.jsx-3339760008{margin-left:10px;height:100%;position:relative;width:100%;}.author-information-text.jsx-3339760008{position:absolute;bottom:-2px;width:auto;font-size:20px;font-size:16px;font-stretch:normal;font-style:normal;-webkit-letter-spacing:normal;-moz-letter-spacing:normal;-ms-letter-spacing:normal;letter-spacing:normal;}@media (max-width: 767px){.author-section.jsx-3339760008{margin-bottom:32px;margin-top:40px;height:90px;}.author-information-text.jsx-3339760008{line-height:1.25;}}@media (min-width: 768px){.author-section.jsx-3339760008{margin-bottom:40px;margin-top:64px;}.author-information-text.jsx-3339760008{line-height:1.5;}}@media (min-width: 1024px){.author-section.jsx-3339760008{margin-bottom:64px;margin-top:88px;}}
@@ -94,22 +94,22 @@ background-repeat : no-repeat;
 .loaded .preloader {
   display: none;
 }
-<style ng-transition="skyengApp">.root[_ngcontent-sc785]{display:flex;flex-direction:column;width:100%;padding:24px;border-radius:16px;margin:36px 0 32px;max-width:2000px;position:relative}
+.root[_ngcontent-sc785]{display:flex;flex-direction:column;width:100%;padding:24px;border-radius:16px;margin:36px 0 32px;max-width:2000px;position:relative}
 .line { display:inline-block; width: 100%; border-top: 1.2px solid #f0f2f5; }
 .line2 { display:inline-block; width: 100%; border-top: 1.5px solid #000; }
  @media only screen and (min-width: 768px) { .m-desky { display: block !important; max-height: none !important; overflow: visible !important; } } 
- @media only screen and (max-width: 767px) { .m-showy { display: block !important; max-height: none !important; overflow: visible !important; } } 
+ @media only screen and (max-width: 800px) { .m-showy { display: block !important; max-height: none !important; overflow: visible !important; } } 
  @media only screen and (min-width: 1023px) { .m-desk { display: block !important; max-height: none !important; overflow: visible !important; } } 
  .gradient { background: #f5f5f7; /* Для старых браузров */ background: linear-gradient(to top, #f5f5f7, #ffffff); padding: 50px;} 
 .up2 {margin-top:-20px;}
 .butt-bd2{ border-style: solid; /* Стиль рамки вокруг параграфа */ border-width: 2px 2px 2px 2px; /* Толщина границы */ padding: 3px; border-radius:5px; /* Поля вокруг текста */ }
 .test{height:550px; width:500px; background-color:gray; margin-left:80px; background-image:url("https://www.getopensocial.com/wp-content/loads/2022/03/Knowledge-sharing-1.jpg"); background-size:100%;}   
-.test2{height:270px; width:400px; margin-left:300px; background-color:gray; background-image:url("https://www.getopensocial.com/wp-content/uploads/2022/03/Knowledge-sharing-1.jpg"); background-size:100%;}
-.test3{height:410px; width:550px; background-color:gray; background-image:url("https://wwco-org.github.io/w/en/wp-content/uploads/sites/25/2022/02/FKAWP%20flag.jpg"); background-size:100%;}   
+.test2{height:300px; width:450px; background-color:gray; background-image:url("https://www.getopensocial.com/wp-content/uploads/2022/03/Knowledge-sharing-1.jpg"); background-size:100%;}
+.test3{height:350px; width:450px; background-color:gray; background-image:url("https://wwco-org.github.io/w/en/wp-content/uploads/sites/25/2022/02/FKAWP%20flag.jpg"); background-size:100%;}   
 .test4{height:320px; width:450px; background-color:gray; background-image:url("https://ignc.org/donation/img/content/donation.jpg"); background-size:100%;}   
-.test5{height:400px; width:550px; background-color:gray; background-image:url("https://wwco-org.github.io/w/ru/wp-content/themes/shiro/assets/src/jpg/knowledge-banner.jpg"); background-size:120%;}
+.test5{height:400px; width:450px; background-color:gray; background-image:url("https://wwco-org.github.io/w/ru/wp-content/themes/shiro/assets/src/jpg/knowledge-banner.jpg"); background-size:150%;}
 .test7{height:350px; width:550px; background-color:gray; background-image:url("https://wwco-org.github.io/w/ru/wp-content/themes/shiro/assets/src/jpg/wwco-gels.jpg"); background-size:100%;}
-.test8{height:430px; width:550px; background-color:gray; margin-left:300px; background-image:url("https://wwco-org.github.io/w/en/wp-content/uploads/sites/25/2018/06/SOPA_protest_in_Midtown_NYC-e1533254825755.jpg?w=1024&h=675&crop=1"); background-size:100%;}
+.test8{height:320px; width:450px; background-color:gray; background-image:url("https://wwco-org.github.io/w/en/wp-content/uploads/sites/25/2018/06/SOPA_protest_in_Midtown_NYC-e1533254825755.jpg?w=1024&h=675&crop=1"); background-size:100%;}
 
 .skiptranslate {
 display: none;
